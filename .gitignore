@@ -1,0 +1,22 @@
+# Environment & Secrets
+.env
+*.env
+backend/.env
+
+# Excluded Local Artifacts / Form Upload Folders
+sample_runs/
+submission/
+data/
+backend/data/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
